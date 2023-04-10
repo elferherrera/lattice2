@@ -1,0 +1,13 @@
+[package]
+name = "lattice-lang"
+version = "0.1.0"
+edition = "2021"
+description = "Lattice language definition"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lattice-protocol = { path = "../lattice-protocol", version = "0.1.0"  }
+
+thiserror = "1.0.38"
+miette = { version = "5.5.0", features = ["fancy"] }
